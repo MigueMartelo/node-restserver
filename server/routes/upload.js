@@ -24,7 +24,7 @@ app.put('/upload/:tipo/:id', (req, res) => {
     }
 
     // Valida tipo
-    let tiposValidos = ['producto', 'usuario'];
+    let tiposValidos = ['productos', 'usuarios'];
     if (tiposValidos.indexOf(tipo) < 0) {
         return res.status(400).json({
             ok: false,
