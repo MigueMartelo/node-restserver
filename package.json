@@ -11,6 +11,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+<<<<<<< HEAD
         "bcrypt": "^3.0.5",
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
@@ -19,5 +20,16 @@
         "mongoose": "^5.5.0",
         "mongoose-unique-validator": "^2.0.2",
         "underscore": "^1.9.1"
+=======
+        "bcrypt": "^2.0.0",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "express-fileupload": "^0.4.0",
+        "google-auth-library": "^1.4.0",
+        "jsonwebtoken": "^8.2.1",
+        "mongoose": "^5.0.15",
+        "mongoose-unique-validator": "^2.0.0",
+        "underscore": "^1.9.0"
+>>>>>>> 8b0cecefd6bd61cd1ff7ff4f7b20f22dd7806627
     }
 }
